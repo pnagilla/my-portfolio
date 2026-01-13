@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best practices for creating responsive websites">
+    <title>Building Responsive Websites - Your Name</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../../index.html">Your Name</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../../index.html#home" class="nav-link">Home</a></li>
+                <li><a href="../../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../../index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="../index.html" class="nav-link">Blog</a></li>
+                <li><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Article -->
+    <article class="blog-article" style="padding-top: 60px;">
+        <a href="../index.html" class="back-link">&larr; Back to Blog</a>
+
+        <h1>Building Responsive Websites</h1>
+        <div class="blog-meta">
+            <p>Published on January 10, 2026 • 7 min read</p>
+        </div>
+
+        <p>In today's multi-device world, creating websites that work seamlessly across all screen sizes is essential. Responsive web design ensures your site looks great whether viewed on a smartphone, tablet, or desktop computer.</p>
+
+        <h2>Mobile-First Approach</h2>
+
+        <p>The mobile-first approach means designing for mobile devices first, then progressively enhancing the experience for larger screens. This ensures your core content and functionality work on the smallest screens, which typically have the most constraints.</p>
+
+        <h2>Key Techniques for Responsive Design</h2>
+
+        <p>Here are the essential techniques every web developer should know:</p>
+
+        <ul>
+            <li><strong>Fluid Grids</strong> - Use relative units like percentages instead of fixed pixels</li>
+            <li><strong>Flexible Images</strong> - Make images scale with their containers using max-width: 100%</li>
+            <li><strong>Media Queries</strong> - Apply different styles based on screen size and characteristics</li>
+            <li><strong>Viewport Meta Tag</strong> - Control how your site appears on mobile devices</li>
+        </ul>
+
+        <h2>CSS Grid and Flexbox</h2>
+
+        <p>Modern CSS layout tools like Grid and Flexbox make responsive design much easier. Flexbox is perfect for one-dimensional layouts (rows or columns), while Grid excels at two-dimensional layouts.</p>
+
+        <h2>Testing Your Responsive Design</h2>
+
+        <p>Always test your website on actual devices when possible. Browser developer tools provide device emulation, but nothing beats testing on real hardware. Pay attention to touch targets, readability, and performance on mobile devices.</p>
+
+        <p>Remember, responsive design is not just about making things fit - it's about creating the best possible experience for users on every device.</p>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio and blog - showcasing my work and thoughts">
+    <title>Your Name - Portfolio & Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html">Pranaya Reddy Nagilla</a>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="blog/index.html" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="three-column-layout">
+                <!-- Left Column: Skills, Experience, Strengths & Weaknesses -->
+                <div class="column left-column">
+                    <div class="info-section clickable" data-modal="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Python</li>
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>MongoDB</li>
+                        </ul>
+                        <p class="click-hint">Click to see more</p>
+                    </div>
+
+                    <div class="info-section clickable" data-modal="experience">
+                        <h3>Previous Experience</h3>
+                        <ul>
+                            <li>Senior Software Engineer at Tech Mahindra</li>
+                            <li>Software Engineer</li>
+                            <li>Associate Software Engineer</li>
+                        </ul>
+                        <p class="click-hint">Click to see more</p>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>Strengths</h3>
+                        <ul>
+                            <li>Problem-solving</li>
+                            <li>Quick learner</li>
+                            <li>Team collaboration</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-section">
+                        <h3>Areas for Growth</h3>
+                        <ul>
+                            <li>Time management</li>
+                            <li>Public speaking</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Middle Column: Name, Title, Photo, Contact -->
+                <div class="column middle-column">
+                    <div class="profile-photo">
+                        <img src="images/img.jpeg" alt="Pranaya Reddy Nagilla" class="profile-image">
+                    </div>
+                    <h1 class="profile-name">Pranaya Reddy Nagilla</h1>
+                    <p class="profile-title">Full Stack Developer</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> pranayareddy.nagilla96@gmail.com</p>
+                        <p><strong>Phone:</strong> +1 (945) 297-9465</p>
+                    </div>
+                </div>
+
+                <!-- Right Column: Resume, Projects, Education -->
+                <div class="column right-column">
+                    <div class="info-section clickable" data-modal="resume">
+                        <h3>Resume</h3>
+                        <a href="documents/resume.pdf" class="resume-link" download onclick="event.stopPropagation()">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align: middle; margin-right: 8px;">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg>
+                            Download Resume (PDF)
+                        </a>
+                        <p class="click-hint">Click to see more</p>
+                    </div>
+
+                    <div class="info-section clickable" data-modal="projects">
+                        <h3>Featured Projects</h3>
+                        <ul>
+                            <li><a href="#projects" onclick="event.stopPropagation()">ChatEngine</a></li>
+                            <li><a href="#projects" onclick="event.stopPropagation()">Portfolio Website</a></li>
+                        </ul>
+                        <p class="click-hint">Click to see more</p>
+                    </div>
+
+                    <div class="info-section clickable" data-modal="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>B.S. Computer Science</li>
+                            <li>Texas A&M University Kingsville, 2025</li>
+                            <li>Relevant Certifications</li>
+                        </ul>
+                        <p class="click-hint">Click to see more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate Software developer with a love for creating elegant solutions to complex problems. With experience in modern technologies, I focus on building responsive, user-friendly applications.</p>
+                    <p>When I'm not coding, you'll find me writing on my blog, exploring new technologies, or contributing to open-source projects.</p>
+                    <div class="skills">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">MasterCard</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GDR</h3>
+                        <p>GDR is a mission-critical data processing pipeline within MasterCard’s Smart Data ecosystem, serving as a centralized platform for ingesting, transforming, enriching, and validating customer data before delivering it to downstream systems and external consumers. I contributed to building and maintaining core backend components that ensured high reliability, data integrity, and consistent processing across the pipeline. The system’s continuous, multi-stage flow required strong attention to correctness and failure handling to prevent downstream data corruption</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">Shell Scripting</span>
+                            <span class="tag">perl Scripting</span>
+                            <span class="tag">Pro*C</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">AT&T</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>HZNAGT</h3>
+                        <p>During my time at AT&T, I worked on backend application development within the Commissions team, building and enhancing systems responsible for calculating commissions for agents and national retailers. The platform ingested data from multiple upstream applications, applied complex business rules, and processed high-volume transactions with a strong emphasis on accuracy and consistency. I was actively involved in analyzing and modernizing legacy components, supporting migration efforts while ensuring reliability and production readiness at scale.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">ShellScripting</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">CenturyLink</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CenturyLink</h3>
+                        <p>During my time at CenturyLink, I worked on backend development and support tasks involving C++ and Python. I spent most of my time understanding existing code, making small enhancements, fixing issues, and helping keep the systems stable in production. Although the engagement was short, it gave me solid hands-on exposure to working with real-world codebases and production environments.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">C++</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">Have a question or want to work together? Feel free to reach out!</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Pranaya Reddy Nagilla. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
