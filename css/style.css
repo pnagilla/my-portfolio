@@ -426,37 +426,37 @@ section {
     text-decoration: underline;
 }
 
-/* Coming Soon Badge */
-.coming-soon-badge {
+/* Live Badge */
+.live-badge {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #fbbf24;
-    color: #0a0e27;
+    background-color: #10b981;
+    color: white;
     padding: 6px 16px;
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
     animation: pulse 2s ease-in-out infinite;
 }
 
 @keyframes pulse {
     0%, 100% {
         transform: scale(1);
-        box-shadow: 0 4px 12px rgba(251, 191, 36, 0.4);
+        box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
     }
     50% {
         transform: scale(1.05);
-        box-shadow: 0 6px 16px rgba(251, 191, 36, 0.6);
+        box-shadow: 0 6px 16px rgba(16, 185, 129, 0.6);
     }
 }
 
 .status-badge {
     display: inline-block;
-    background-color: #10b981;
+    background-color: #6b7280;
     color: white;
     padding: 4px 12px;
     border-radius: 12px;
@@ -465,15 +465,37 @@ section {
     margin-left: 8px;
 }
 
+.status-badge-live {
+    background-color: #10b981;
+}
+
 .launch-note {
-    color: #fbbf24 !important;
+    color: #10b981 !important;
     font-style: italic;
     font-weight: 600;
     margin-top: 1rem;
 }
 
-.project-card.coming-soon .placeholder-image {
-    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+/* Clickable Project Card */
+.project-card-live {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+}
+
+.project-card-live .placeholder-image {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.project-card-live:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-live:hover .live-badge {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.6);
 }
 
 /* Contact Section */
