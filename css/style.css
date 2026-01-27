@@ -560,6 +560,35 @@ section {
     box-shadow: 0 8px 20px rgba(245, 158, 11, 0.6);
 }
 
+/* Professional Experience Section */
+.experience-section {
+    background-color: var(--bg-light);
+}
+
+.company-badge {
+    display: inline-block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+/* Company Placeholder Colors */
+.placeholder-mastercard {
+    background: linear-gradient(135deg, #eb001b 0%, #f79e1b 100%) !important;
+}
+
+.placeholder-att {
+    background: linear-gradient(135deg, #00a8e0 0%, #0057b8 100%) !important;
+}
+
+.placeholder-centurylink {
+    background: linear-gradient(135deg, #00a3e0 0%, #005f7f 100%) !important;
+}
+
 /* Contact Section */
 .contact {
     background-color: var(--bg-light);
