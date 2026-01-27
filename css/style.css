@@ -184,6 +184,16 @@ body {
     font-size: 0.95rem;
 }
 
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #10b981;
+}
+
 /* Info Sections */
 .info-section {
     background-color: rgba(30, 41, 82, 0.6);
