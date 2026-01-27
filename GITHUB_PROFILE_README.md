@@ -11,6 +11,7 @@ I'm a passionate software developer with 6+ years of experience building robust 
 - 🔭 Currently building **[ChatEngine](https://chat.nagilla.me)** - A full-stack AI chat application with multi-model evaluation
 - 📧 Email: pranayareddy.nagilla96@gmail.com
 - 📱 Phone: +1 (945) 297-9465
+- 💻 GitHub: **[github.com/pnagilla](https://github.com/pnagilla)**
 
 ### 🛠️ Tech Stack
 
