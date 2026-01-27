@@ -184,14 +184,16 @@ body {
     font-size: 0.95rem;
 }
 
-.contact-info a {
-    color: white;
-    text-decoration: none;
+.contact-info a,
+.contact-info a:visited,
+.contact-info a:link {
+    color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
-    color: #10b981;
+    text-decoration: underline !important;
+    color: #10b981 !important;
 }
 
 /* Info Sections */
